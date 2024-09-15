@@ -12,3 +12,18 @@ Gather dataset -> Data pre-processing -> Training ML Model -> Embeddings -> Eval
 
 ## Vector DBS:
 Indexes and store vector embeddings, often linked to their respective object, able to compare multiple things at once, making it very efficient for models to remember and source of truth for the data.
+
+# How to evaluate a RAG?
+
+Ground truth:
+- Q: abcxyz
+-> Relevant documents doc1, doc2, doc3
+
+Human feedback
+
+Different metrics:
+- Precision at k: Number of relevant documents in top k / k
+- Recall
+- MAP
+- Hit rate
+- Mean Reciprocal Rank,...
