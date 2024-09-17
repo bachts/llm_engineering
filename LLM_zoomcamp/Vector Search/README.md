@@ -27,3 +27,6 @@ Different metrics:
 - MAP
 - Hit rate
 - Mean Reciprocal Rank,...
+
+
+# How to get ground truth data 
